@@ -1,0 +1,28 @@
+.nav {
+  overflow: hidden;
+  padding: 10px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  transition: all 0.2s ease-in;
+}
+
+.nav__right {
+  object-fit: contain;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav__left {
+  object-fit: contain;
+  height: 20px;
+}
+
+.nav__black {
+  background-color: black;
+}
